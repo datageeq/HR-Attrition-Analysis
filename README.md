@@ -27,10 +27,27 @@ The dataset includes the following fields:
      ![Summary of Dataset_ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8278b2a7-22a3-4d39-8b18-f9d09f1a6670)
      ![Summary of Dataset_ _ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b4d56b0b-a183-48df-8c48-ef421e714ebe)
 
-   - Visualize the distribution of attrition
+
+    - Visualize the distribution of attrition
      
      ![Vizualise ditribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2e9f833b-7129-4a2e-a5b3-427f0dca25d2)
      ![countplot_distribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2d885d39-1ae2-4538-9423-18964fcc2851)
+
+
+    - Visualize the distribution of numerical features
+
+      ![viz dist num feats](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/586742c4-d207-4aad-a6a4-800591045f9b)
+      ![histogram distribution of numerical features](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f7d3eba5-44f8-46e6-b94d-925fd0d85878)
+
+
+      - Visualize the correlation matrix
+
+        ![viz corr matrx](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/468aeee7-8d07-4247-b145-bd69732762c1)
+        ![heatmap correlation matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/86bd4fda-d7c2-4396-97fb-cc1ab4bdf6c2)
+
+      
+
+
 
 
 
