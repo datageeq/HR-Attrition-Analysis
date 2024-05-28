@@ -1,3 +1,4 @@
+logo: assets/images/pyth4.png
 # HR-Attrition-Analysis
 ## Project Overview
 This project aims to analyze employee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
