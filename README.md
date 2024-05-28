@@ -11,6 +11,7 @@ This project aims to analyze employee attrition using logistic regression. The g
 
 ## Data
 The dataset includes the following fields:
+
 ![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
 
 - Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, MonthlyRate, NumCompaniesWorked, Over18, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager
