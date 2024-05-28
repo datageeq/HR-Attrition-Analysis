@@ -1,4 +1,4 @@
-![pyth4](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8edb5d3b-152d-4976-a37c-73ef60aaba9e)
+![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/30232040-844b-4e2b-ae49-8e7458241acc)![pyth4](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8edb5d3b-152d-4976-a37c-73ef60aaba9e)
 
 
 ## Project Overview
@@ -20,12 +20,16 @@ The dataset includes the following fields:
 1. **Data Preprocessing**: Handle missing values, encode categorical variables, and scale numerical features.
    
 2. **Exploratory Data Analysis**
-   - To understand distributions and obtain summary statistics of the dataset  I use "print(data.describe())".
-   ![Summary of Dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6aad0336-339a-4709-9bc3-cd212a3fa99a)
-   ![Summary of Dataset_](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/261418c7-d9da-412d-ace9-b9ef9ae15b43)
-   ![Summary of Dataset_ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8278b2a7-22a3-4d39-8b18-f9d09f1a6670)
-   ![Summary of Dataset_ _ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b4d56b0b-a183-48df-8c48-ef421e714ebe)
+   - To understand distributions and obtain summary statistics of the dataset I use "print(data.describe())".
+     
+     ![Summary of Dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6aad0336-339a-4709-9bc3-cd212a3fa99a)
+     ![Summary of Dataset_](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/261418c7-d9da-412d-ace9-b9ef9ae15b43)
+     ![Summary of Dataset_ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8278b2a7-22a3-4d39-8b18-f9d09f1a6670)
+     ![Summary of Dataset_ _ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b4d56b0b-a183-48df-8c48-ef421e714ebe)
 
+   - Visualize the distribution of attrition
+     ![Vizualise ditribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2e9f833b-7129-4a2e-a5b3-427f0dca25d2)
+     ![countplot_distribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2d885d39-1ae2-4538-9423-18964fcc2851)
 
 
 
