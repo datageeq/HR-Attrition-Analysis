@@ -1,6 +1,6 @@
-![pyth4](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c331b39e-e385-4d8a-af34-acd1da8ed37c)
+![pyth1e](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/fa1258ec-0e11-4cb7-93dc-691e5f53a47d)
 
-# HR-Attrition-Analysis
+
 ## Project Overview
 This project aims to analyze employee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
 
@@ -26,6 +26,11 @@ The dataset includes the following fields:
 Key findings and visualizations are included in the `images` directory. The logistic regression model allows us to:
 - Identify significant predictors of employee attrition.
 - Understand the direction and magnitude of the relationship between predictors and attrition.
+
+### Confusion Matrix
+![confusion matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9e81a223-73bb-469a-9c63-13171c1b9d38)
+
+
 
 ## Usage
 1. Clone the repository.
