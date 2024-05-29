@@ -37,7 +37,7 @@ The dataset includes the following fields:
    - Visualize the distribution of numerical features
 
       ![viz dist num feats](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/586742c4-d207-4aad-a6a4-800591045f9b)
-      ![histogram distribution of numerical features](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f7d3eba5-44f8-46e6-b94d-925fd0d85878)
+         ![histogram distribution of numerical features](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f7d3eba5-44f8-46e6-b94d-925fd0d85878)
 
 
    - Visualize the correlation matrix
@@ -55,24 +55,54 @@ The dataset includes the following fields:
 
 
 
+
 ## Results
 Key findings from the logistic regression model are outlined in the coefficinets below: 
 
+![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/cd71f33e-d84f-4e36-b6b0-7a3f7dc93869)
+![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/722361c6-3996-40ed-a246-81f0da7f56bd)
+
  **Positive coefficients** denotes a highter chances of attrition
-   - **OverTime** *(1.854874):* According to the logistic regression model, this is the most significant factor for attrition which indicates that eployees who work overtime are more likely to leave the company. 
-   - YearsAtCompany (0.691612): Surprisingly, employees with more years at the company have a          higher likelihood of attrition. This might indicate burnout or lack of progression.
-   - Department (0.681800): Certain departments have higher attrition rates. You might need to         investigate which departments are driving this and why.
-   - MaritalStatus (0.607765): Marital status impacts attrition, with certain statuses possibly        correlating with higher attrition.
-   - YearsSinceLastPromotion (0.475559): More years since the last promotion correlates with           higher attrition, indicating a potential issue with career progression.
+   - **OverTime** (*1.854874*): According to the logistic regression model, this is the most significant factor for attrition which indicates that eployees who work overtime are more likely to leave the company. 
+   - **YearsAtCompany** (*0.691612*): Employees who have worked for an extended number of years at the company have a higher likelihood of attrition. Possible indications for this may include burnout or lack of progression.
+   - **Department** (*0.681800*): The model indictaes that certain departments have higher attrition rates. Further analysis is required to investigate which departments are driving the attrition rates and why.
+   - **MaritalStatus** (*0.607765*): The positive coefficinets also indicate that marital status impacts attrition. A deeper analysis is required to uncover the statuses possibly correlating with higher attrition.
+   - **YearsSinceLastPromotion** (*0.475559*): This coefficient showcases that more years since the last promotion correlates with higher attrition. This indicates a potential issue with career progression.
+
 
  **Negative cofficients** denotes a lower chance of attrition
+   - **YearsInCurrentRole** (*-0.667247*): Longer tenure in the current role decreases the likelihood of attrition. Employees settled in their roles may feel more secure and satisfied.
+   - **YearsWithCurrManager** (*-0.442247*): Longer relationships with the current manager reduce attrition, suggesting good managerial relationships are important for retention.
+   - **JobLevel** (*-0.419056*): Higher job levels are associated with lower attrition, possibly due to higher satisfaction or better compensation.
+   - **JobSatisfaction** (*-0.407041*): Higher job satisfaction reduces the likelihood of attrition, which aligns with expectations.
+   - **TotalWorkingYears** (*-0.374128*): More total working years correlate with lower attrition, suggesting experienced employees are less likely to leave.
+
+
+Steps for Evaluation and Further Analysis
+Model Performance Metrics:
+Evaluate the model using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC to understand its predictive power.
+
+Cross-Validation:
+Use cross-validation to ensure the model's robustness and check if it performs consistently across different subsets of the data.
+
+Feature Importance:
+Consider the practical implications of the top features (both positive and negative) and whether they align with domain knowledge.
+
+Investigate Departments:
+If the 'Department' feature shows high positive influence on attrition, analyze specific departments to identify underlying issues.
+
+Overtime Policy:
+Since 'OverTime' has the highest positive coefficient, review overtime policies and their impact on employee well-being.
+
+Employee Engagement:
+Focus on improving job satisfaction and reducing the time since last promotion to lower attrition rates.
+
 
 
 
 - Identify significant predictors of employee attrition.
 - Understand the direction and magnitude of the relationship between predictors and attrition.
-![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/cd71f33e-d84f-4e36-b6b0-7a3f7dc93869)
-![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/722361c6-3996-40ed-a246-81f0da7f56bd)
+
 
 
 ### Confusion Matrix
