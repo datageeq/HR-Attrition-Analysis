@@ -50,19 +50,29 @@ The data '*ibm-hr-analytics-attrition-dataset*' used for this project is sourced
 ## Technology Stack for Data Analysis 
 For this data analysis project, I employed a comprehensive technology stack to efficiently store, manipulate, analyze, and visualize the data. This includes:
 - **Microsoft Excel (CSV):** This spreadsheet tool was used to download and store the dataset.
-- **Python:** - This is the programming language used for the analysis due to its simplicity and extensive libraries.
+- **Python:** This is the programming language used for the analysis due to its simplicity and extensive libraries.
 - **Jupyter Notebook:** This is an Integrated Development Environment (IDE) used to execute codes, analyse data and visualize data.
 
+Using the Jupyter Notebook, I imported the necessary libraries.
+![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
 
-
+Uploaded the dataset
+![load](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/4ff4ce3b-4d81-476e-8f2f-11e4dc1c639e)
 ![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
 
 
 
 ## Methodology
-1. **Data Preprocessing**: Handle missing values, encode categorical variables, and scale numerical features.
+1. Data Processing
+2. Exploratory Data Analysis (EDA)
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6. Results
+7. Interpretation
+
    
-2. **Exploratory Data Analysis**
+**2. Exploratory Data Analysis (EDA)**
    - To understand distributions and obtain summary statistics of the dataset I use "print(data.describe())".
      
      ![Summary of Dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6aad0336-339a-4709-9bc3-cd212a3fa99a)
@@ -89,21 +99,36 @@ For this data analysis project, I employed a comprehensive technology stack to e
         ![heatmap correlation matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/86bd4fda-d7c2-4396-97fb-cc1ab4bdf6c2)
 
     
-3. **Modeling**: Train a logistic regression model to predict employee attrition.
-4. **Results**:
-5. **Evaluation**: Evaluate the model's performance using accuracy, confusion matrix, and classification report.
+**3. Data Preparation**
+
+
+**4. Modeling**
+i. **Initialize and Train the model:** In this phase, I train a logistic regression model to predict employee attritionusing the training dataset
+
+  ![train](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/479174c9-fa67-4497-8e1d-6f59f92d1618)
+
+ii. **Carry out Predictions on Test Set:** Here, the trained model was used to make predictions on the test dataset.
+
+![predictions](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/80d79d37-27ef-485d-96e6-2a18048d04de)
+
+
+
+
+**5. Evaluation**
+Evaluate the model's performance using accuracy, confusion matrix, and classification report.
 
 
 
 
 
 
-## Results
+**6. Results**
 Key findings from the logistic regression model are outlined in the coefficinets below: 
 
 ![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/cd71f33e-d84f-4e36-b6b0-7a3f7dc93869)
 ![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/722361c6-3996-40ed-a246-81f0da7f56bd)
 
+ ## **Interpretation:**
  **Positive coefficients** denotes a highter chances of attrition
    - **OverTime** (*1.854874*): According to the logistic regression model, this is the most significant factor for attrition which indicates that eployees who work overtime are more likely to leave the company. 
    - **YearsAtCompany** (*0.691612*): Employees who have worked for an extended number of years at the company have a higher likelihood of attrition. Possible indications for this may include burnout or lack of progression.
