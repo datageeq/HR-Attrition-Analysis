@@ -10,11 +10,54 @@ This project aims to analyze employee attrition using logistic regression. The g
 - Evaluate the model's performance and interpret its coefficients.
 
 ## Data
-The dataset includes the following fields:
+The data '*ibm-hr-analytics-attrition-dataset*' used for this project is sourced from Kaggle (https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). This is a fictional data set created by IBM data scientists. It was downloaded in a CSV format. It includes the following fields: 
+- Age
+- Attrition
+- BusinessTravel
+- DailyRate
+- Department
+- DistanceFromHome
+- Education
+- EducationField
+- EmployeeCount
+- EmployeeNumber
+- EnvironmentSatisfaction
+- Gender
+- HourlyRate
+- JobInvolvement
+- JobLevel
+- JobRole
+- JobSatisfaction
+- MaritalStatus
+- MonthlyIncome
+- MonthlyRate
+- NumCompaniesWorked
+- Over18
+- OverTime
+- PercentSalaryHike
+- PerformanceRating
+- RelationshipSatisfaction
+- StandardHours
+- StockOptionLevel
+- TotalWorkingYears
+- TrainingTimesLastYear
+- WorkLifeBalance
+- YearsAtCompany
+- YearsInCurrentRole
+- YearsSinceLastPromotion
+- YearsWithCurrManager
+
+## Technology Stack for Data Analysis 
+For this data analysis project, I employed a comprehensive technology stack to efficiently store, manipulate, analyze, and visualize the data. This includes:
+- **Microsoft Excel (CSV):** This spreadsheet tool was used to download and store the dataset.
+- **Python:** - This is the programming language used for the analysis due to its simplicity and extensive libraries.
+- **Jupyter Notebook:** This is an Integrated Development Environment (IDE) used to execute codes, analyse data and visualize data.
+
+
 
 ![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
 
-- Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, MonthlyRate, NumCompaniesWorked, Over18, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager
+
 
 ## Methodology
 1. **Data Preprocessing**: Handle missing values, encode categorical variables, and scale numerical features.
@@ -47,10 +90,9 @@ The dataset includes the following fields:
 
     
 3. **Modeling**: Train a logistic regression model to predict employee attrition.
-4. **Evaluation**: Evaluate the model's performance using accuracy, confusion matrix, and classification report.
+4. **Results**:
+5. **Evaluation**: Evaluate the model's performance using accuracy, confusion matrix, and classification report.
 
-      ![Evaluate the model](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/41538bab-0ca0-463b-ad1a-69a34950c9e3)
-      ![accuracy confxn matrx](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2eec9b10-2de2-4fce-bcb3-dfef802ad125)
 
 
 
