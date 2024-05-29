@@ -59,7 +59,7 @@ The dataset includes the following fields:
 Key findings from the logistic regression model are outlined in the coefficinets below: 
 
  **Positive coefficients** denotes a highter chances of attrition
-   - *OverTime (1.854874):* Employees who work overtime are more likely to leave the company. This       is the most influential factor according to the logistic regression model.
+   - **OverTime** *(1.854874):* According to the logistic regression model, this is the most significant factor for attrition which indicates that eployees who work overtime are more likely to leave the company. 
    - YearsAtCompany (0.691612): Surprisingly, employees with more years at the company have a          higher likelihood of attrition. This might indicate burnout or lack of progression.
    - Department (0.681800): Certain departments have higher attrition rates. You might need to         investigate which departments are driving this and why.
    - MaritalStatus (0.607765): Marital status impacts attrition, with certain statuses possibly        correlating with higher attrition.
