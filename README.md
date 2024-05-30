@@ -89,15 +89,17 @@ For this data analysis project, I employed a comprehensive technology stack to e
 - Data Cleaning
 1. Check for Null values
    
-  ![missing values](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/be78b926-eb61-4995-952b-ddd874441b3a)
-  ![missing values JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ee7ee62-67b0-4bf2-b685-4b9c0ee822e1)
-
-3. Identify and remove duplicates
+    ![missing values](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/be78b926-eb61-4995-952b-ddd874441b3a)
    
-![remove dups](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b8706c0c-dc29-4eee-a0ac-c0422adede3d)
-![remove dups JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c18316a0-d9ac-4d47-8cb7-9ddc41c00ca3)
+    ![missing values JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ee7ee62-67b0-4bf2-b685-4b9c0ee822e1)
 
-5. Check for inconsistencies
+2. Identify and remove duplicates
+   
+    ![remove dups](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b8706c0c-dc29-4eee-a0ac-c0422adede3d)
+   
+    ![remove dups JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c18316a0-d9ac-4d47-8cb7-9ddc41c00ca3)
+  
+3. Check for inconsistencies
    
    ![unik](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c5530ee0-ce17-4561-a90c-f44c1dcc3c48)
    ![unik JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/dbaf59d6-d4b7-4f6e-95b6-7a047d88ed26)
@@ -106,13 +108,6 @@ For this data analysis project, I employed a comprehensive technology stack to e
    
 
 
-   
-
-  
-
-
-
-- Data Quality Checks
 
 
    
@@ -147,6 +142,8 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
     
 **3. Data Preparation**
+![encode categorical var](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/176bdb1e-0f2f-4cc3-a239-87312e22550f)
+
 
 
 **4. Modeling**
