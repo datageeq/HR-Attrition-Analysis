@@ -142,7 +142,10 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
     
 **3. Data Preparation**
-![encode categorical var](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/176bdb1e-0f2f-4cc3-a239-87312e22550f)
+![encode](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2bf7be61-8142-42c9-91f5-99b8d76eb841)
+
+
+
 
 
 
