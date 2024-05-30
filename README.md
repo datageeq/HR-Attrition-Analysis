@@ -1,4 +1,4 @@
-![pyth4](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/8edb5d3b-152d-4976-a37c-73ef60aaba9e)
+![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/eee76c4b-9996-49bf-bf2b-0f1c87c12bae)
 
 
 ## Project Overview
@@ -53,8 +53,7 @@ For this data analysis project, I employed a comprehensive technology stack to e
 - **Python:** This is the programming language used for the analysis due to its simplicity and extensive libraries.
 - **Jupyter Notebook:** This is an Integrated Development Environment (IDE) used to execute codes, analyse data and visualize data.
 
-Using the Jupyter Notebook, I imported the necessary libraries.
-![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
+
 
 Uploaded the dataset
 ![load](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/4ff4ce3b-4d81-476e-8f2f-11e4dc1c639e)
@@ -71,8 +70,21 @@ Uploaded the dataset
 6. Results
 7. Interpretation
 
+
+**Data Processing**
+- Import the required libraries
+  Using the Jupyter Notebook, I imported the necessary libraries.
+![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
+
+
+- Load the Dataset:
+- Data Cleaning:
+- Initial Data Inspection:
+- Data Quality Checks:
+
+
    
-**2. Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**
    - To understand distributions and obtain summary statistics of the dataset I use "print(data.describe())".
      
      ![Summary of Dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6aad0336-339a-4709-9bc3-cd212a3fa99a)
@@ -175,12 +187,3 @@ Focus on improving job satisfaction and reducing the time since last promotion t
 ### Confusion Matrix
 ![confusion matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9e81a223-73bb-469a-9c63-13171c1b9d38)
 `images`
-
-
-## Usage
-1. Clone the repository.
-2. Install the required dependencies.
-3. Run the scripts in the `scripts` directory or open the Jupyter notebooks in the `notebooks` directory.
-
-## License
-This project is licensed under the MIT License.
