@@ -77,9 +77,7 @@ For this data analysis project, I employed a comprehensive technology stack to e
 - Initial Data Inspection
   
   ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
-  ![Summary of Dataset_](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9098e300-fa71-4aaf-ba95-b6476189c593)
-  ![Summary of Dataset_ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/3b53007d-ea0e-4aad-b489-3b020a59e278)
-  ![Summary of Dataset_ _ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/bd3fb298-b84f-4ba1-8ed2-47c0e2c22343)
+  ![first rows](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/aab3c28f-27b7-471b-8f58-3a53ca7de05e)
   ![SUmmary info](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c64ea18-d4f1-43f9-8eaf-2e2a8af290eb)
   ![d type](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f3523976-7eed-49cb-9120-31d7552d2bd0)
 
