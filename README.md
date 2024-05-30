@@ -1,4 +1,5 @@
-![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/eee76c4b-9996-49bf-bf2b-0f1c87c12bae)
+![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/3c6e23c1-94ad-45bb-891c-64503905b08c)
+
 
 
 ## Project Overview
@@ -48,7 +49,7 @@ The data '*ibm-hr-analytics-attrition-dataset*' used for this project is sourced
 - YearsWithCurrManager
 
 ## Technology Stack for Data Analysis 
-For this data analysis project, I employed a comprehensive technology stack to efficiently store, manipulate, analyze, and visualize the data. This includes:
+For this data analysis project, I employed a comprehensive technology stack to efficiently store, manipulate, analyze, and visualize the data. These include:
 - **Microsoft Excel (CSV):** This spreadsheet tool was used to download and store the dataset.
 - **Python:** This is the programming language used for the analysis due to its simplicity and extensive libraries.
 - **Jupyter Notebook:** This is an Integrated Development Environment (IDE) used to execute codes, analyse data and visualize data.
