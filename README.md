@@ -147,6 +147,7 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
 **4. Modeling**
+
 i. **Initialize and Train the model:** In this phase, I train a logistic regression model to predict employee attritionusing the training dataset
 
   ![train](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/479174c9-fa67-4497-8e1d-6f59f92d1618)
