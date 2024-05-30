@@ -179,6 +179,7 @@ ii. **Carry out Predictions on Test Set:** Here, the trained model was used to m
 
 **5. Evaluation**
 Evaluate the model's performance using accuracy, confusion matrix, and classification report.
+![confusion matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9e81a223-73bb-469a-9c63-13171c1b9d38)
 
 
 
@@ -235,6 +236,5 @@ Focus on improving job satisfaction and reducing the time since last promotion t
 
 
 
-### Confusion Matrix
-![confusion matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9e81a223-73bb-469a-9c63-13171c1b9d38)
+
 `images`
