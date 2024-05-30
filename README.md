@@ -144,6 +144,21 @@ For this data analysis project, I employed a comprehensive technology stack to e
 **3. Data Preparation**
 ![encode](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2bf7be61-8142-42c9-91f5-99b8d76eb841)
 
+![scale numerical](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/29a13d36-1770-4f8b-8637-b45ae79b0430)
+![scale numerical JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ae9ed269-1915-4630-8a03-4e6ef721eac9)
+
+![separate feats](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2a4f5ef3-916e-49c0-abb0-939ea44686ee)
+![separate feats JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/df8d23e5-f82e-4c5a-bc5b-97c7de145d04)
+
+![split data](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/16976790-c5ea-49ca-b0e0-871f6a85ed9b)
+![split data JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7e4dab09-c760-4560-b20c-eaa9cfb88050)
+
+
+
+
+
+
+
 
 
 
