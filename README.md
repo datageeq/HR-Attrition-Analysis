@@ -72,7 +72,8 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 - Load the Dataset
   Uploaded the dataset
-![load only](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/56b3817b-9038-4c77-8146-2da0aa6cc859)
+![load dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ed811c2-0f3b-4d20-809d-13b3b85240f4)
+
 
 - Initial Data Inspection
   
@@ -103,19 +104,22 @@ For this data analysis project, I employed a comprehensive technology stack to e
    - Visualize the distribution of attrition
      
       ![Vizualise ditribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2e9f833b-7129-4a2e-a5b3-427f0dca25d2)
-      ![countplot_distribution of attrition](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/2d885d39-1ae2-4538-9423-18964fcc2851)
+      ![attrition count plot](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ae1d26a9-b799-4b56-867a-7d5ab34c30e8)
+
 
 
    - Visualize the distribution of numerical features
 
       ![viz dist num feats](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/586742c4-d207-4aad-a6a4-800591045f9b)
-         ![histogram distribution of numerical features](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f7d3eba5-44f8-46e6-b94d-925fd0d85878)
+        ![2 Visualize the distribution of numerical features](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/a417c4d1-a2ff-443e-afa8-e01d1a1874c5)
+
 
 
    - Visualize the correlation matrix
 
         ![viz corr matrx](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/468aeee7-8d07-4247-b145-bd69732762c1)
-        ![heatmap correlation matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/86bd4fda-d7c2-4396-97fb-cc1ab4bdf6c2)
+       ![2 correlation matrix](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/27bcb1f2-54d3-42fd-a76c-ac4cb4d0026e)
+
 
     
 **3. Data Preparation**
