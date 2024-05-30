@@ -1,4 +1,4 @@
-![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6f61fa8d-027b-4a4a-bc30-ff7a12d6e55f)
+![a1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/38d15c8e-4ca9-4793-a93c-e53625851b9e)
 
 
 ## Project Overview
