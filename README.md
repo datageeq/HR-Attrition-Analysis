@@ -1,4 +1,4 @@
-![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9591b337-4587-42ef-a88e-459042071bc3)
+![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6f61fa8d-027b-4a4a-bc30-ff7a12d6e55f)
 
 
 ## Project Overview
@@ -70,15 +70,26 @@ For this data analysis project, I employed a comprehensive technology stack to e
 ![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
 
 
-- Load the Dataset:
+- Load the Dataset
   Uploaded the dataset
-![load](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/4ff4ce3b-4d81-476e-8f2f-11e4dc1c639e)
-![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
+![load only](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/56b3817b-9038-4c77-8146-2da0aa6cc859)
+
+- Initial Data Inspection
+  
+  ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
+  ![Summary of Dataset_](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9098e300-fa71-4aaf-ba95-b6476189c593)
+  ![Summary of Dataset_ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/3b53007d-ea0e-4aad-b489-3b020a59e278)
+  ![Summary of Dataset_ _ _](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/bd3fb298-b84f-4ba1-8ed2-47c0e2c22343)
+  ![SUmmary info](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c64ea18-d4f1-43f9-8eaf-2e2a8af290eb)
+  ![d type](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/f3523976-7eed-49cb-9120-31d7552d2bd0)
 
 
-- Data Cleaning:
-- Initial Data Inspection:
-- Data Quality Checks:
+
+
+- Data Cleaning
+  
+
+- Data Quality Checks
 
 
    
