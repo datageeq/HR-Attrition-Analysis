@@ -1,5 +1,4 @@
-![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/3c6e23c1-94ad-45bb-891c-64503905b08c)
-
+![attr3d](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/9591b337-4587-42ef-a88e-459042071bc3)
 
 
 ## Project Overview
@@ -55,13 +54,6 @@ For this data analysis project, I employed a comprehensive technology stack to e
 - **Jupyter Notebook:** This is an Integrated Development Environment (IDE) used to execute codes, analyse data and visualize data.
 
 
-
-Uploaded the dataset
-![load](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/4ff4ce3b-4d81-476e-8f2f-11e4dc1c639e)
-![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
-
-
-
 ## Methodology
 1. Data Processing
 2. Exploratory Data Analysis (EDA)
@@ -79,6 +71,11 @@ Uploaded the dataset
 
 
 - Load the Dataset:
+  Uploaded the dataset
+![load](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/4ff4ce3b-4d81-476e-8f2f-11e4dc1c639e)
+![Load the dataset 1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/ef5e4498-e74b-4ad2-a86a-fe2438ee13b6)
+
+
 - Data Cleaning:
 - Initial Data Inspection:
 - Data Quality Checks:
