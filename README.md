@@ -74,7 +74,8 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
 3. Initial Data Inspection
-  ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
+
+![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
   ![first rows](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/aab3c28f-27b7-471b-8f58-3a53ca7de05e)
   ![SUmmary info](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c64ea18-d4f1-43f9-8eaf-2e2a8af290eb)
 
@@ -84,17 +85,15 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
 4. Data Cleaning
-i. Check for Null values
+  i. Check for Null values
    
     ![missing values](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/be78b926-eb61-4995-952b-ddd874441b3a)
    
     ![missing values JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ee7ee62-67b0-4bf2-b685-4b9c0ee822e1)
 
 ii. Identify and remove duplicates
-   
-    ![remove dups](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b8706c0c-dc29-4eee-a0ac-c0422adede3d)
-   
-    ![remove dups JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c18316a0-d9ac-4d47-8cb7-9ddc41c00ca3)
+       ![remove dups](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b8706c0c-dc29-4eee-a0ac-c0422adede3d)
+      ![remove dups JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c18316a0-d9ac-4d47-8cb7-9ddc41c00ca3)
   
 iii. Check for inconsistencies
    
