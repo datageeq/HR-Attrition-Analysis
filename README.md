@@ -64,18 +64,18 @@ For this data analysis project, I employed a comprehensive technology stack to e
 7. Interpretation
 
 
-**Data Processing**
-- Import the required libraries
+## Data Processing
+1. Import the required libraries
   Using the Jupyter Notebook, I imported the necessary libraries.
 ![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
 
 
-- Load the Dataset
+2. Load the Dataset
   Uploaded the dataset
 ![load dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ed811c2-0f3b-4d20-809d-13b3b85240f4)
 
 
-- Initial Data Inspection
+3. Initial Data Inspection
   
   ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
   ![first rows](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/aab3c28f-27b7-471b-8f58-3a53ca7de05e)
@@ -86,20 +86,20 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
 
-- Data Cleaning
-1. Check for Null values
+4. Data Cleaning
+i. Check for Null values
    
     ![missing values](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/be78b926-eb61-4995-952b-ddd874441b3a)
    
     ![missing values JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ee7ee62-67b0-4bf2-b685-4b9c0ee822e1)
 
-2. Identify and remove duplicates
+ii. Identify and remove duplicates
    
     ![remove dups](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/b8706c0c-dc29-4eee-a0ac-c0422adede3d)
    
     ![remove dups JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c18316a0-d9ac-4d47-8cb7-9ddc41c00ca3)
   
-3. Check for inconsistencies
+iii. Check for inconsistencies
    
    ![unik](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/c5530ee0-ce17-4561-a90c-f44c1dcc3c48)
    ![unik JPG=](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/dbaf59d6-d4b7-4f6e-95b6-7a047d88ed26)
@@ -111,7 +111,7 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
    
-**Exploratory Data Analysis (EDA)**
+## Exploratory Data Analysis (EDA)
    - To understand distributions and obtain summary statistics of the dataset I use "print(data.describe())".
      
      ![Summary of Dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6aad0336-339a-4709-9bc3-cd212a3fa99a)
