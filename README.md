@@ -191,7 +191,7 @@ Key findings from the logistic regression model are outlined in the coefficinets
 ![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/cd71f33e-d84f-4e36-b6b0-7a3f7dc93869)
 ![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/722361c6-3996-40ed-a246-81f0da7f56bd)
 
- ## **Interpretation:**
+ ## Interpretation:
  **Positive coefficients** denotes a highter chances of attrition
    - **OverTime** (*1.854874*): According to the logistic regression model, this is the most significant factor for attrition which indicates that eployees who work overtime are more likely to leave the company. 
    - **YearsAtCompany** (*0.691612*): Employees who have worked for an extended number of years at the company have a higher likelihood of attrition. Possible indications for this may include burnout or lack of progression.
@@ -207,11 +207,11 @@ Key findings from the logistic regression model are outlined in the coefficinets
    - **JobSatisfaction** (*-0.407041*): Higher job satisfaction reduces the likelihood of attrition, which aligns with expectations.
    - **TotalWorkingYears** (*-0.374128*): More total working years correlate with lower attrition, suggesting experienced employees are less likely to leave.
 
-##Model Performance Metrics:
+## Model Performance Metrics:
 Evaluate the model using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC to understand its predictive power.
 
 
-##Considerations for further analysis
+## Considerations for further analysis
 
 **Overtime Policy:
 'OverTime' has the highest positive coefficient, the Human Resources department is required to review overtime policies and their impact on employee well-being.
