@@ -47,7 +47,7 @@ The data '*ibm-hr-analytics-attrition-dataset*' used for this project is sourced
 - YearsSinceLastPromotion
 - YearsWithCurrManager
 
-## Technology Stack for Data Analysis 
+## Tools
 For this data analysis project, I employed a comprehensive technology stack to efficiently store, manipulate, analyze, and visualize the data. These include:
 - **Microsoft Excel (CSV):** This spreadsheet tool was used to download and store the dataset.
 - **Python:** This is the programming language used for the analysis due to its simplicity and extensive libraries.
