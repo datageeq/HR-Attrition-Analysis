@@ -65,18 +65,15 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 
 ## Data Processing
-1. Import the required libraries
-  Using the Jupyter Notebook, I imported the necessary libraries.
+1. Import the required libraries using the Jupyter Notebook, I imported the necessary libraries.
 ![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
 
 
 2. Load the Dataset
-  Uploaded the dataset
 ![load dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ed811c2-0f3b-4d20-809d-13b3b85240f4)
 
 
 3. Initial Data Inspection
-  
   ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
   ![first rows](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/aab3c28f-27b7-471b-8f58-3a53ca7de05e)
   ![SUmmary info](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c64ea18-d4f1-43f9-8eaf-2e2a8af290eb)
