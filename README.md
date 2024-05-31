@@ -5,7 +5,7 @@
 This project aims to analyze employee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
 
 ## Objectives
-- Identify key factors contributing to employee attrition.
+- Identify key predictors contributing to employee attrition.
 - Develop a logistic regression model to predict attrition.
 - Evaluate the model's performance and interpret its coefficients.
 
@@ -185,8 +185,7 @@ Evaluate the model's performance using accuracy, confusion matrix, and classific
 
 
 
-
-**6. Results**
+##Results
 Key findings from the logistic regression model are outlined in the coefficinets below: 
 
 ![image](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/cd71f33e-d84f-4e36-b6b0-7a3f7dc93869)
@@ -208,10 +207,20 @@ Key findings from the logistic regression model are outlined in the coefficinets
    - **JobSatisfaction** (*-0.407041*): Higher job satisfaction reduces the likelihood of attrition, which aligns with expectations.
    - **TotalWorkingYears** (*-0.374128*): More total working years correlate with lower attrition, suggesting experienced employees are less likely to leave.
 
-
-Steps for Evaluation and Further Analysis
-Model Performance Metrics:
+##Model Performance Metrics:
 Evaluate the model using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC to understand its predictive power.
+
+
+##Considerations for further analysis
+
+**Overtime Policy:
+'OverTime' has the highest positive coefficient, the Human Resources department is required to review overtime policies and their impact on employee well-being.
+
+**Investigate Departments:
+The Department feature shows positive influence on attrition, further analysis is required for specific departments to identify underlying issues.
+
+**Employee Engagement:
+Focus on improving job satisfaction and reducing the time since last promotion to lower attrition rates.
 
 Cross-Validation:
 Use cross-validation to ensure the model's robustness and check if it performs consistently across different subsets of the data.
@@ -219,20 +228,8 @@ Use cross-validation to ensure the model's robustness and check if it performs c
 Feature Importance:
 Consider the practical implications of the top features (both positive and negative) and whether they align with domain knowledge.
 
-Investigate Departments:
-If the 'Department' feature shows high positive influence on attrition, analyze specific departments to identify underlying issues.
-
-Overtime Policy:
-Since 'OverTime' has the highest positive coefficient, review overtime policies and their impact on employee well-being.
-
-Employee Engagement:
-Focus on improving job satisfaction and reducing the time since last promotion to lower attrition rates.
 
 
-
-
-- Identify significant predictors of employee attrition.
-- Understand the direction and magnitude of the relationship between predictors and attrition.
 
 
 
