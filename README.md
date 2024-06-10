@@ -1,5 +1,7 @@
 ![a1](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/38d15c8e-4ca9-4793-a93c-e53625851b9e)
 
+http://localhost:8888/notebooks/Untitled1.ipynb
+
 
 ## Project Overview
 This project aims to analyze employee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
