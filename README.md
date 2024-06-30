@@ -4,7 +4,124 @@ http://localhost:8888/notebooks/Untitled.ipynb
 
 
 ## Project Overview
-This project aims to analyze employee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
+This project aims to analyze e{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "8fa3fca4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "                            OLS Regression Results                            \n",
+      "==============================================================================\n",
+      "Dep. Variable:      Viral Load Status   R-squared:                       0.047\n",
+      "Model:                            OLS   Adj. R-squared:                  0.041\n",
+      "Method:                 Least Squares   F-statistic:                     8.306\n",
+      "Date:                Fri, 28 Jun 2024   Prob (F-statistic):           0.000301\n",
+      "Time:                        22:37:57   Log-Likelihood:                -441.02\n",
+      "No. Observations:                 341   AIC:                             888.0\n",
+      "Df Residuals:                     338   BIC:                             899.5\n",
+      "Df Model:                           2                                         \n",
+      "Covariance Type:            nonrobust                                         \n",
+      "=================================================================================\n",
+      "                    coef    std err          t      P>|t|      [0.025      0.975]\n",
+      "---------------------------------------------------------------------------------\n",
+      "const             1.3014      0.167      7.781      0.000       0.972       1.630\n",
+      "State            -0.1726      0.067     -2.587      0.010      -0.304      -0.041\n",
+      "Age of Client    -0.2625      0.088     -2.984      0.003      -0.436      -0.089\n",
+      "==============================================================================\n",
+      "Omnibus:                      428.283   Durbin-Watson:                   1.902\n",
+      "Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.641\n",
+      "Skew:                           0.618   Prob(JB):                     1.23e-10\n",
+      "Kurtosis:                       1.702   Cond. No.                         8.74\n",
+      "==============================================================================\n",
+      "\n",
+      "Notes:\n",
+      "[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import statsmodels.api as sm\n",
+    "\n",
+    "# Load data\n",
+    "file_path = r\"C:\\Users\\Sietoyo\\Downloads\\PSS_Peds.xlsx\"\n",
+    "df = pd.read_excel(file_path)\n",
+    "\n",
+    "\n",
+    "# Sample data (replace this with your actual data loading)\n",
+    "# Ensure the columns are strings, then strip any leading or trailing whitespace\n",
+    "df['Viral Load Status'] = df['Viral Load Status'].astype(str).str.strip()\n",
+    "df['State'] = df['State'].astype(str).str.strip()\n",
+    "df['Age of Client'] = df['Age of Client'].astype(str).str.strip()\n",
+    "\n",
+    "# Replace categorical values with numerical values\n",
+    "df['Viral Load Status'].replace(['Suppressed', 'Unsuppressed', 'Unknown'], [0, 1, 2], inplace=True)\n",
+    "df['State'].replace(['Lagos', 'Kaduna', 'Kogi'], [0, 1, 2], inplace=True)\n",
+    "df['Age of Client'].replace(['1-4 Years', '5-9 Years', '10-19 Years'], [0, 1, 2], inplace=True)\n",
+    "\n",
+    "\n",
+    "# Ensure that columns are numeric\n",
+    "df['Viral Load Status'] = pd.to_numeric(df['Viral Load Status'], errors='coerce')\n",
+    "df['State'] = pd.to_numeric(df['State'], errors='coerce')\n",
+    "df['Age of Client'] = pd.to_numeric(df['Age of Client'], errors='coerce')\n",
+    "\n",
+    "# Check for and handle NaN values (optional, depending on your data handling policy)\n",
+    "df.dropna(subset=['Viral Load Status', 'State', 'Age of Client'], inplace=True)\n",
+    "\n",
+    "# Prepare the data for the regression model\n",
+    "Y = df['Viral Load Status']\n",
+    "X = df[['State', 'Age of Client']]\n",
+    "X = sm.add_constant(X)  # Adds a constant term to the predictor\n",
+    "\n",
+    "# Fit the linear regression model\n",
+    "try:\n",
+    "    linear_model = sm.OLS(Y, X)\n",
+    "    result = linear_model.fit()\n",
+    "    # Get the summary of the model\n",
+    "    print(result.summary())\n",
+    "except Exception as e:\n",
+    "    print(f\"An error occurred: {e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "74c7643b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+mployee attrition using logistic regression. The goal is to identify the key factors contributing to employee attrition and provide actionable insights to the HR department to help improve employee retention.
 
 ## Objectives
 - Identify key predictors contributing to employee attrition.
@@ -68,14 +185,17 @@ For this data analysis project, I employed a comprehensive technology stack to e
 
 ## Data Processing
 1. Import the required libraries using the Jupyter Notebook, I imported the necessary libraries.
+
+
+2. 
 ![libraries](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/6c8aeb4d-7862-4e8c-9fd2-8fa61f92e014)
 
 
-2. Load the Dataset
+3. Load the Dataset
 ![load dataset](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/7ed811c2-0f3b-4d20-809d-13b3b85240f4)
 
 
-3. Initial Data Inspection
+4. Initial Data Inspection
 
 ![inspect](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/923e3cc9-6f54-4d00-8c62-bf0f2c2344d9)
   ![first rows](https://github.com/datageeq/HR-Attrition-Analysis/assets/115308270/aab3c28f-27b7-471b-8f58-3a53ca7de05e)
